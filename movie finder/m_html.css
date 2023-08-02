@@ -1,0 +1,48 @@
+body{
+    background-color: #323233;
+    color:aliceblue;
+    margin:0px;
+}
+
+.full_body{
+    background-color: #1e1e1e;
+    margin:20px auto;
+    width:50%;
+    display:block;
+    padding-bottom: 30px;
+
+
+}
+.title{
+    font-size:100px;
+    text-align: center;
+}
+.search-box{
+    background-color: #09151e;
+    margin: 20px auto;
+    width:75%;
+    display:block;
+    padding:20px;
+
+}
+.form-input{
+    background-color: #abb8fe;
+    color:bisque;
+    display:block;
+    width: 80%;
+    margin:20px auto;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border:0;
+    
+}
+.search{
+    display:block;
+    background-color: #007acc;
+    color:antiquewhite;
+    width:80%;
+    margin:10px auto;
+    height: 30px;
+    border: 0;
+}
