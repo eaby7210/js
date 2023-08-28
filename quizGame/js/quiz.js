@@ -142,7 +142,9 @@ async function getQuestion(n){
   
   // Handle choice selection
   function selectChoice(choiceIndex) {
+    if(userAnswers[currentQuestionIndex]==null){
     updateProgressBar();
+  }
     userAnswers[currentQuestionIndex] = choiceIndex;
     const options = optionsContainer.querySelectorAll(".option");
     options.forEach((option, index) => {
